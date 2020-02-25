@@ -1,15 +1,40 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
 __pycache__
-app/__pycache__
 
-.vscode
+# Installer logs
+pip-log.txt
 
-__init__.pyc
-routes.pyc
-config.pyc
-microblog.pyc
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
 
 venv
-logs
-microblog-0.11
-
 app.db
+microblog.log*
